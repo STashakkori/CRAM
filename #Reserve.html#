@@ -1,0 +1,54 @@
+<html>
+	<head> 
+	<link rel="stylesheet" type ="text/css" href ="Reserve.css">
+
+	<!-- Shortcut icon -->
+  	<link rel="shortcut icon" href="favicon.ico">
+2
+	<script src="js/jquery-1.9.1.js" type="text/javascript"></script>
+	<script src="js/json2.js" type="text/javascript"></script>
+	<script src="js/services.js" type="text/javascript"></script>
+	<script src="js/reserve.js" type="text/javascript"></script>
+    <script src ="js/notification.js" type ="text/javascript"></script>
+    <script src ="js/reserveRoom2.js" type = "text/javascript"></script>
+		<title> CRAM Reservation Page </title>
+	</head>
+	<body>
+		<div class="container">
+		<form class ="form-reserve">
+		<h2 class="form-reserve-heading"> Reserve A Class Room</h2>
+		 <p />
+		<b>Building <select name = "Building" id="Buildingbox">    
+		</select>
+
+		<p />
+		Room
+		<select name = "Room" id="RoomBox"></select><br />
+
+		Day <select id="dateday" name="dateday"></select><br />
+		Month <select id="datemonth" name="datemonth"></select><br />
+		Year <select id="dateyear" name="dateyear"></select><br />
+		Start Time
+		<select id="starthours" name="starthours"></select>
+		<select id="startminutes" name="startminutes"></select> 
+		<select id="startampm" name="startampm"> 
+			<option value = "AM"> AM </option>
+			<option value = "PM">PM </option>
+		</select>
+		<br />
+		End Time
+		<select id="endhours" name="endhours"></select>
+		<select id="endminutes" name="endminutes"></select> 
+		<select id="endampm" name="endampm"> 
+			<option value = "AM"> AM </option>
+			<option value = "PM">PM </option>
+		</select>
+		<p id="from-reserve" />
+		</br>
+		
+		<input type="button" value="Submit" name = "Submit" id="Submit"></input>
+		</b>
+		</form>
+   		</div> <!-- /container -->
+	</body>
+</html>

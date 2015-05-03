@@ -1,0 +1,117 @@
+ body {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #eee;
+		text-align:center;
+		font-family:"New Baskerville W01 Roman", New Baskerville W01 Roman, sans-serif;
+      }
+
+      .form-signin {
+        max-width: 300px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: rgb(255,210,0);
+        border: 1px solid #e5e5e5;
+        background: rgb(255,210,0);
+		border-radius: 8px;
+		box-shadow: 0px 2px 8px rgba(0,0,0,.5);
+		background: linear-gradient(to bottom, #ffd65e 0%,#febf04 100%);
+      }
+	  .form-signin h2 {
+		text-shadow: 0px 2px 4px rgba(255,255,255,1);
+	  }
+	  .form-signin input {
+		border-radius: 3px;
+	  }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin input[type="text"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+		/*margin-left: -3px;*/
+		padding: 7px 9px;
+	 width: 175px;
+      }
+	  
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+	 width: 175px;
+      }
+	  
+.stitched {
+   padding: 5px 10px;
+   margin: 10px;
+   background: #f2f2f2;
+   color: #000;
+   line-height: 1.3em;
+   border: 2px dashed #aaa;
+   border-radius: 3px;
+   -moz-box-shadow: 0 0 0 4px #f2f2f2, 2px 1px 4px 4px rgba(10,10,0,.5);
+   -webkit-box-shadow: 0 0 0 4px #f2f2f2, 2px 1px 4px 4px rgba(10,10,0,.5);
+   box-shadow: 0 0 0 4px #f2f2f2, 2px 1px 6px 4px rgba(10,10,0,.5);
+
+}
+
+.reservation_block {
+	height: 350px;
+	width: 200px;
+	position: relative;
+	/*float: center;*/
+	margin-left:auto;
+	margin-right:auto;
+	padding: 19px 29px 29px;
+	display: inline-block;
+	margin: 15px 15px;
+	overflow: hidden;
+	background-color: rgb(255,210,0);
+	border: 1px solid #e5e5e5;
+	background: rgb(255,210,0);
+	border-radius: 8px;
+	box-shadow: 0px 2px 8px rgba(0,0,0,.5);
+	background: linear-gradient(to bottom, #ffd65e 0%,#febf04 100%);
+	opacity: 0;'
+}
+.reservation_block h2 {
+	font-size: 22px;
+}
+
+.delete {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	height: 30px;
+	width: 30px;
+	background-image: url('./images/red_x.png');
+	background-size: 30px auto;
+	background-color: transparent;
+	background-repeat: no-repeat;  
+    background-position: 0px 0px;  
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    vertical-align: middle; /* align the text vertically centered */
+}
+
+#logoutbtn {
+    position: absolute; 
+    top: 0px; 
+    right: 0px;
+	height: 30px;
+	/*width: 80px;*/
+	font-size: 12px;
+} 
+#resv_room {
+	height: 30px;
+	width: 150px;
+} 
+#greeting {
+	/*float: center;*/
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+}

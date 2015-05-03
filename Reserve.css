@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+	margin: 0;
+    background-color: #eee;
+    text-align:center;
+    font-family: "New Baskerville W01 Roman", New Bakerville W01 Roman, sans-serif;
+}
+head {
+	padding: 0;
+	margin: 0;
+}
+.form-reserve {
+	max-width: 375px;
+	padding: 19px 29px 29px;
+	margin: 0 auto ;
+	background-color: rgb(255,210,0);
+	text-align: left;
+	border: 1px solid #e5e5e5;
+	font-size: 16px;
+	border-radius: 8px;
+	box-shadow: 0px 2px 8px rgba(0,0,0,.5);
+	background: linear-gradient(to bottom, #ffd65e 0%,#febf04 100%);
+}
+.form-reserve h2 {
+	text-shadow: 0px 2px 4px rgba(255,255,255,1);
+	margin: 5px 0;
+	padding: 0;
+	text-align: center;
+}
+
+#logoutbtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+	height: 30px;
+} 
+
+#reason {
+	-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 93%;
+}
+
+#Submit {
+	float: right;
+}
+
+.stitched {
+   padding: 5px 10px;
+   margin: 10px;
+   background: #f2f2f2;
+   color: #000;
+   line-height: 1.3em;
+   border: 2px dashed #aaa;
+   border-radius: 3px;
+   -moz-box-shadow: 0 0 0 4px #f2f2f2, 2px 1px 4px 4px rgba(10,10,0,.5);
+   -webkit-box-shadow: 0 0 0 4px #f2f2f2, 2px 1px 4px 4px rgba(10,10,0,.5);
+   box-shadow: 0 0 0 4px #f2f2f2, 2px 1px 6px 4px rgba(10,10,0,.5);
+}
+
+.container {
+	clear: both;
+}
+
+#greeting {
+	/*float: center;*/
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+}
+#dashboard {
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+	height: 30px; 
+	font-size: 12px;
+} 
